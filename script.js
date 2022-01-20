@@ -41,7 +41,7 @@ function generatePassword() {
     return null;
   }
 
-  // this is a minimum count for numbers, lowerCases, upperCases & specialCharacter
+  // this is a minimum count for numbers, lowerCases, upperCases & specialCharacters
   var minimumCount = 0;
   var numbers = confirm("Do you want numbers in your password?");
   var lowerCases = confirm("Do you want lowercases in your password?");
